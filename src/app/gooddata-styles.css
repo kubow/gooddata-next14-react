@@ -1,0 +1,37 @@
+/* SCSS variant */
+/* not used
+@import "@gooddata/sdk-ui-filters/styles/scss/main.scss";
+@import "@gooddata/sdk-ui-charts/styles/scss/main.scss";
+@import "@gooddata/sdk-ui-geo/styles/scss/main.scss";
+@import "@gooddata/sdk-ui-pivot/styles/scss/main.scss";
+@import "@gooddata/sdk-ui-kit/styles/scss/main.scss";
+@import "@gooddata/sdk-ui-ext/styles/scss/main.scss";
+*/
+
+/* CSS variant */
+@import "@gooddata/sdk-ui-filters/styles/css/main.css";
+@import "@gooddata/sdk-ui-charts/styles/css/main.css";
+/*@import "@gooddata/sdk-ui-geo/styles/css/main.css";*/
+@import "@gooddata/sdk-ui-pivot/styles/css/main.css";
+@import "@gooddata/sdk-ui-kit/styles/css/main.css";
+@import "@gooddata/sdk-ui-ext/styles/css/main.css";
+
+/* Override broken asset paths */
+/* TURNED OFF
+.gd-icon-attribute {
+  background-image: url('/assets/icons/attribute.svg');
+}
+
+.gd-icon-date {
+  background-image: url('/assets/icons/date.svg');
+}
+
+.gd-icon-attribute-hierarchy {
+  background-image: url('/assets/icons/attribute-hierarchy.svg');
+}
+
+@font-face {
+  font-family: "Indigo";
+  src: url("/assets/fonts/Indigo-v2.woff") format("woff"),
+       url("/assets/fonts/Indigo-v2.eot") format("embedded-opentype");
+}*/

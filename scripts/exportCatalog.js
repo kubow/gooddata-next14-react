@@ -27,7 +27,7 @@ spawnSync(
     "gdc-catalog-export",
     "--hostname", hostname,
     "--workspace-id", workspace,
-    "--catalog-output", "catalog.ts"
+    "--catalog-output", "src/app/catalog.ts"
   ],
   { stdio: "inherit" }
 );
