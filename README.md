@@ -1,3 +1,7 @@
+# Showcase on Setting up a drilling over InsightView Components
+
+![demo](InsightView%20Driling.gif)
+
 # Next.js
 
 Integrating GoodData into Next.js is easier than it seems, even without native support. Let’s dive in and go over the four step process:
