@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@gooddata/catalog-export": "^10.37.0",
+    "@types/node": "24.2.0",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
     "autoprefixer": "^10.0.1",

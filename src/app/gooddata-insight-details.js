@@ -4,7 +4,7 @@ import React from 'react';
 
 export function InsightDetails({ insight }) {
   if (!insight) return <p>No insight selected.</p>;
-  {console.log("here is the selected item:", insight)}
+  //{console.log("visualization details:", insight)}
 
   const renderMeasures = () => {
     return insight.buckets

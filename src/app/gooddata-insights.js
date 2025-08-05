@@ -28,7 +28,7 @@ export default function DynamicInsightSelector() {
       .insights()
       .getInsights()
       .then((res) => {
-        console.log('✅ Insights loaded:', res.items);
+        //console.log('✅ Insights loaded:', res.items);
         const loaded = res.items.map((i) => i.insight);
         setInsights(loaded);
 
@@ -46,7 +46,7 @@ export default function DynamicInsightSelector() {
 
   const handleSelectChange = (id) => {
     setSelectedId(id);
-    console.log("selecting:", id);
+    console.log("selecting visual id:", id);
     const match = insights.find((i) => i.identifier === id);
     if (match) {
       setSelectedInsight(match);
