@@ -2,6 +2,22 @@
 
 ![demo](InsightView%20Driling.gif)
 
+Specific accent on [InsightView component](https://github.com/gooddata/gooddata-ui-sdk/blob/a69d8d40ce220d9998cb94d85c9c4814b7e45acf/docs/content/en/latest/learn/add_interactivity/on_drill.md)
+
+```js
+import { InsightView } from "@gooddata/sdk-ui-ext";
+import { HeaderPredicates } from "@gooddata/sdk-ui";
+
+<InsightView
+   insight="<visualization-identifier>"
+   config={<chart-config>}
+   onDrill={(event) => { console.log(event.dataView); }}
+   drillableItems={[
+        HeaderPredicates.identifierMatch("drillable-Identifier1"),
+   ]}
+/>
+```
+
 # Next.js
 
 Integrating GoodData into Next.js is easier than it seems, even without native support. Let’s dive in and go over the four step process:
